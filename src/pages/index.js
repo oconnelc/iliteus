@@ -4,6 +4,7 @@ import ReactGA from 'react-ga';
 
 class HomeRedirect extends React.Component {
   constructor() {
+    super()
     ReactGA.initialize('***REMOVED***');
     ReactGA.pageview(window.location.pathname);
   }
