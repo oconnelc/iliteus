@@ -7,7 +7,7 @@ class HomeRedirect extends React.Component {
   constructor() {
     super()
     ReactGA.initialize('***REMOVED***');
-    ReactGA.pageview(root.location);
+    // ReactGA.pageview(root.location);
   }
 
   render() {
